@@ -1,12 +1,32 @@
+body {
+              background-image: url(harvardstadium.jpg);
+               background-size: cover;
+               background-position: center center;
+               background-attachment: fixed;
+}
+ 
+
+
+#wrapper {
+  opacity: .9;
+  width: 960px;
+  margin: 50px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+
 div#container {
-               background-color: white;
                width: 960px;
-               margin: 20px auto;
+               margin: 50px auto;
                padding: 40px;
 }
  
 h1{
+               font-family: 'Graduate';
                color:maroon;
+               margin: 50px auto;
 }
  
 img{
@@ -14,7 +34,53 @@ img{
 }
  
 h2{
+               font-family: 'Graduate';
                font-size: 300%;
                color: maroon;
                text-align: center;
+}
+
+table {
+	font-family: 'Crete Round';
+	font-size: 120%;
+
+
+}
+
+
+h2#HarvardFootball{
+               font-family: 'Graduate';
+               font-style: bold;
+               font-size: 400%;
+               color: maroon;
+               text-align: center;
+}
+
+
+/* NAVBAR STYLING */
+
+
+h2#navbar{
+               font-family: 'Graduate';
+               font-size: 200%;
+               color: maroon;
+               text-align: center;
+}
+
+
+ div#navbar {
+ 	font-family: 'Crete Round';
+  text-align: center;
+  content: center;
+  line-height: 26px;
+
+
+}
+
+
+div#wrapper {
+  background-color: white;
+  width: 960px;
+  margin: 50px auto;
+  padding: 20px;
 }
